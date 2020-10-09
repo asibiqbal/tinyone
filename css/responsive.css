@@ -1,0 +1,231 @@
+/* COL devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* menu start */
+    .menu {
+        margin-top: 4px!important;
+    }
+    .menu li a {
+        padding: 2px 0!important;
+        text-align: right;
+    }
+    /* menu end */
+/*slider */
+.slider {
+    padding-bottom: 60px;
+}
+/* carosul */
+.cid {
+    bottom: -55px;
+}
+.cid li {
+    width: 13px;
+    height: 13px;
+}
+/* Single */
+.s_content {
+    margin-top: 10px;
+}
+.s_content h1 {
+    font-size: 25px;
+}
+.s_content h2 {
+    margin: 15px 0;
+}
+.s_content p {
+    margin-bottom: 20px;
+}
+.s_icon li i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+/* slider end */
+/* Single */
+.s_content {
+    margin-top: 10px;
+}
+.s_content h1 {
+    font-size: 25px;
+}
+.s_content h2 {
+    margin: 15px 0;
+}
+.s_content p {
+    margin-bottom: 20px;
+}
+.s_icon li i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+/* features */
+.features {
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+.c_h1 {
+	font-size: 25px;
+}
+.c_p {
+	font-size: 18px;
+	word-spacing: 0;
+}
+.mt_60 {
+	margin-top: 30px;
+}
+.f_icon {
+	font-size: 40px;
+}
+.f_text {
+	text-align: center;
+}
+/* contact */
+.contact {
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+form .btn-submit{
+	margin-top: 20px;
+}
+.social-media ul {
+	padding: 0 !important;
+}
+.social-media ul li a {
+	padding: 0 0 !important;
+}
+.social-media ul li a i {
+	width: 25px;
+    	height: 25px;
+    	font-size: 16px;
+    	line-height: 25px;
+    	margin: 0 10px;
+    }
+    /* blog */
+    .blog {
+        padding-bottom: 60px;
+    }
+    .blog-details {
+        font-size: 15px;
+    }
+    .blog-details ul li a {
+        padding: 0 0 !important;
+    }
+    .blog-details ul {
+        padding: 0 !important;
+    }
+    .text-align {
+        text-align: center;
+    }
+    .m_b {
+        margin-bottom: 15px;
+    }
+}
+
+/* SM (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* menu start */
+    .menu {
+        margin-top: 5px!important;
+    }
+    .menu li a {
+        padding: 3px 0!important;
+        text-align: right;
+    }
+    /* menu end */
+    /* slider start */
+    .tiny_sl_h1 {
+        font-size: 32px;
+    }
+    .tiny_sl_h2 {
+        font-size: 18px;
+    }
+    .tiny_slider_content {
+        margin-top: 0;
+    }
+    /* slider end */
+    /*Single*/
+.s_content {
+    margin-top: 35px;
+}
+    /* features */
+    .features {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    .c_h1 {
+        font-size: 28px;
+    }
+    .mt_60 {
+        margin-top: 40px;
+    }
+    .f_text {
+        text-align: center;
+    }
+    /* contact */
+    .contact {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    .social-media ul {
+        padding: 0 !important;
+    }
+    .social-media ul li a {
+        padding: 0 0 !important;
+    }
+    /* blog */
+    .blog {
+        padding-bottom: 80px;
+    }
+    .blog-details ul li a {
+        padding: 0 0 !important;
+    }
+    .blog-details ul {
+        padding: 0 !important;
+    }
+}
+
+/* MD (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* menu start */
+    .menu {
+        margin-top: 5px!important;
+    }
+    .menu li a {
+        padding: 3px 0!important;
+        text-align: right;
+    }
+    /* menu end */
+    /* slider start */
+    .s_img {
+        margin-left: 0;
+    }
+    /* slider end */
+    /*Single*/
+    .s_content {
+        margin-top: 35px;
+    }
+    .f_icon {
+        font-size: 50px;
+    }
+    .social-media ul {
+        padding: 0 !important;
+    }
+    .social-media ul li a {
+        padding: 0 0 !important;
+    }
+    /* blog */
+    .blog-details ul li a {
+        padding: 0 0 !important;
+    }
+    .blog-details ul {
+        padding: 0 !important;
+    }
+}
+
+/* LG (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* slider start */
+    /* slider end */
+}
+
+/* XL (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
